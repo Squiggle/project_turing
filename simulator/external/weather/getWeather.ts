@@ -1,0 +1,1 @@
+export const getWeather = fetch('http://localhost:8080/weather').then(result => result.json());
